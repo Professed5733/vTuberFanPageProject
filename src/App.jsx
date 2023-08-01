@@ -1,10 +1,11 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+import Display from "./pages/Display";
+import DataFetcher from "./components/DataFetcher";
 
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
+      <Display></Display>
     </div>
   );
 }
