@@ -13,7 +13,8 @@ const DataFetcher = ({ onDataUpdate }) => {
         `&playlistId=${mikaPlaylistId}` +
         `&key=${youtubeApiKey}`
     );
-    onDataUpdate(data); // Pass the data to the parent component
+    const itemsData = data.items || [];
+    onDataUpdate(itemsData); // Pass the data to the parent component
   };
 
   useEffect(() => {
