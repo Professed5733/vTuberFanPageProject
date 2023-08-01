@@ -1,7 +1,7 @@
 import React from "react";
 
-const VideoGrid = () => {
+const VideoCard = () => {
   return <div></div>;
 };
 
-export default VideoGrid;
+export default VideoCard;
