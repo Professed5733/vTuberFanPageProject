@@ -28,7 +28,7 @@ const NavBar = () => {
           <MenuItem> Logout </MenuItem>
         </Menu>
       </Sidebar>
-      <h1>WELCOME TO QUICKPAY</h1>
+      {/* <h1>WELCOME TO QUICKPAY</h1> */}
     </div>
   );
 };
