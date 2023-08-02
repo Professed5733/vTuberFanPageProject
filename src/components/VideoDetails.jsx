@@ -4,17 +4,23 @@ import ReactPlayer from "react-player";
 import VideoCard from "./VideoCard";
 
 const VideoDetails = (props) => {
-  // const selectedVideo = mikaData.find(
-  //   (item) => item.snippet.resourceId.videoId === id
-  // );
+  const mikaData = props.mikaData;
 
   return (
     <>
       <div class="container">
         <div class="row">
-          <VideoCard></VideoCard>
-          <VideoCard></VideoCard>
-          <VideoCard></VideoCard>
+          {mikaData.map((item) => {
+            return (
+              <VideoCard
+                key={item.id}
+                publisedDate={item.snippet.publishedAt}
+                title={item.snippet.title}
+                thumbnail={item.snippet.thumbnails.maxres.url}
+                videoId={item.snippet.resourceId.videoId}
+              ></VideoCard>
+            );
+          })}
         </div>
       </div>
     </>

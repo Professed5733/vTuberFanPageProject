@@ -5,7 +5,7 @@ import VideoDetails from "./components/VideoDetails";
 function App() {
   return (
     <div>
-      <VideoDetails></VideoDetails>
+      <MikaVideoPage></MikaVideoPage>
     </div>
   );
 }
