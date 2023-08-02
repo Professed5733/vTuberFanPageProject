@@ -1,11 +1,14 @@
 import React from "react";
 import MikaVideoPage from "./pages/MikaVideoPage";
-import VideoDetails from "./components/VideoDetails";
+import MikaProfilePage from "./pages/MikaProfilePage";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <MikaVideoPage></MikaVideoPage>
+      <Header></Header>
+      <MikaProfilePage></MikaProfilePage>
+      {/* <MikaVideoPage></MikaVideoPage> */}
     </div>
   );
 }
