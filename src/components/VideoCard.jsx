@@ -9,7 +9,10 @@ const VideoCard = (props) => {
           <div class="card-body">
             <p class="card-title">{props.title}</p>
             <p class="card-data">{props.publisedDate}</p>
-            <a href="#" class="btn btn-primary">
+            <a
+              href={`https://www.youtube.com/watch?v=${props.videoId}`}
+              class="btn btn-primary"
+            >
               Play Video
             </a>
           </div>
