@@ -1,11 +1,11 @@
 import React from "react";
-import Display from "./pages/Display";
 import MikaVideoPage from "./pages/MikaVideoPage";
+import VideoDetails from "./components/VideoDetails";
 
 function App() {
   return (
     <div>
-      <MikaVideoPage></MikaVideoPage>
+      <VideoDetails></VideoDetails>
     </div>
   );
 }
