@@ -11,6 +11,7 @@ const MikaVideoPage = () => {
   //   const [mikaVideoDetails, setMikaVideoDetails] = useState([]);
   const fetchMikaData = useGet();
   //   const fetchMikaVideoDetails = useGet();
+  // const [showYoutubePlayer, setShowYoutubePlayer] = useState(false);
 
   const youtubeApiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
   const mikaPlaylistId = "UUahgMxSIQ2zIRrPKhM6Mjvg";
@@ -73,7 +74,11 @@ const MikaVideoPage = () => {
 
   return (
     <>
-      <VideoDetails mikaData={mikaData}></VideoDetails>
+      <VideoDetails
+        mikaData={mikaData}
+        // showYoutubePlayer={showYoutubePlayer}
+        // setShowYoutubePlayer={setShowYoutubePlayer}
+      ></VideoDetails>
     </>
   );
 };

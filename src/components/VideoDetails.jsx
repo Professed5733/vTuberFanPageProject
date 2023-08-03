@@ -18,6 +18,8 @@ const VideoDetails = (props) => {
                 title={item.snippet.title}
                 thumbnail={item.snippet.thumbnails.maxres.url}
                 videoId={item.snippet.resourceId.videoId}
+                // showYoutubePlayer={props.showYoutubePlayer}
+                // setShowYoutubePlayer={props.setShowYoutubePlayer}
               ></VideoCard>
             );
           })}
