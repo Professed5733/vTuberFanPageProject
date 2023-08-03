@@ -13,11 +13,11 @@ const MikaProfilePage = () => {
 
   useEffect(() => {
     if (mikaProfileData) {
-      parseProfileAndPersonalityAndHistory(mikaProfileData);
+      parseProfileAndPersonality(mikaProfileData);
     }
   }, [mikaProfileData]);
 
-  const parseProfileAndPersonalityAndHistory = (data) => {
+  const parseProfileAndPersonality = (data) => {
     const profileRegex = /==Profile==\n([\s\S]*?)<ref>/;
     const personalityRegex = /==Personality==\n([\s\S]*?)(?=\n==\w+)/i;
 
