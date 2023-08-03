@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./YoutubePlayer.module.css";
 
+// Youtube Overlay page that will pop up with an embeded corresponding youtube video
 const OverLay = (props) => {
   const handleBackdropClick = (event) => {
     if (event.target.classList.contains(styles.backdrop)) {

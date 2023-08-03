@@ -5,11 +5,13 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
+      {/* Banner Image */}
       <img
         src={bannerImage}
         alt="Banner"
         style={{ maxWidth: "100%", maxHeight: "200px", width: "100%" }}
       ></img>
+      {/* NavBar */}
       <nav className="navbar bg-body-tertiary" data-bs-theme="dark">
         <div className="container-fluid justify-content-center">
           <NavLink

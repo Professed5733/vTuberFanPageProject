@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import YoutubePlayer from "./YoutubePlayer";
 
+// Card to render the individual videos
 const VideoCard = (props) => {
+  // Define the use state for Youtube Player Overlay child later on
   const [showYoutubePlayer, setShowYoutubePlayer] = useState(false);
 
   return (
@@ -13,7 +15,6 @@ const VideoCard = (props) => {
             <p class="card-title">{props.title}</p>
             <p class="card-data">{props.publisedDate}</p>
             <a
-              // href={`https://www.youtube.com/watch?v=${props.videoId}`}
               class="btn btn-primary"
               onClick={() => setShowYoutubePlayer(true)}
             >

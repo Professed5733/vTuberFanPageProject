@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-import ReactPlayer from "react-player";
+import React from "react";
 import VideoCard from "./VideoCard";
 
+// The video gird to hold all the Video card Child
 const VideoDetails = (props) => {
+  // Prop in the Youtube Data from Main Video Page
   const mikaData = props.mikaData;
 
   return (
@@ -18,8 +18,6 @@ const VideoDetails = (props) => {
                 title={item.snippet.title}
                 thumbnail={item.snippet.thumbnails.maxres.url}
                 videoId={item.snippet.resourceId.videoId}
-                // showYoutubePlayer={props.showYoutubePlayer}
-                // setShowYoutubePlayer={props.setShowYoutubePlayer}
               ></VideoCard>
             );
           })}
