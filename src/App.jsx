@@ -1,15 +1,26 @@
-import React from "react";
-import MikaVideoPage from "./pages/MikaVideoPage";
-import MikaProfilePage from "./pages/MikaProfilePage";
+import React, { Suspense } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+const ProfilePage = React.lazy(() => import("./pages/MikaProfilePage"));
+const VideoPage = React.lazy(() => import("./pages/MikaVideoPage"));
 import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
+    <>
       <Header></Header>
-      <MikaProfilePage></MikaProfilePage>
-      {/* <MikaVideoPage></MikaVideoPage> */}
-    </div>
+      <div className="container">
+        <Suspense fallback={<p>Loading</p>}>
+          <Routes>
+            <Route
+              path="/"
+              element={<Navigate replace to="./MikaProfilePage" />}
+            />
+            <Route path="/MikaProfilePage" element={<ProfilePage />} />
+            <Route path="/MikaVideoPage" element={<VideoPage />} />
+          </Routes>
+        </Suspense>
+      </div>
+    </>
   );
 }
 

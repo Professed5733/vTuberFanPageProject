@@ -1,5 +1,6 @@
 import React from "react";
 import bannerImage from "../assets/banner.jpg";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,14 +11,22 @@ const Header = () => {
         style={{ maxWidth: "100%", maxHeight: "200px", width: "100%" }}
       ></img>
       <nav className="navbar bg-body-tertiary" data-bs-theme="dark">
-        <form className="container-fluid justify-content-center">
-          <button className="btn btn-outline-success me-2" type="button">
+        <div className="container-fluid justify-content-center">
+          <NavLink
+            className="btn btn-outline-success me-2"
+            type="button"
+            to="/MikaProfilePage"
+          >
             Mika's Profile
-          </button>
-          <button className="btn btn-outline-success me-2" type="button">
+          </NavLink>
+          <NavLink
+            className="btn btn-outline-success me-2"
+            type="button"
+            to="/MikaVideoPage"
+          >
             Mika's Videos
-          </button>
-        </form>
+          </NavLink>
+        </div>
       </nav>
     </>
   );
