@@ -5,8 +5,11 @@ The vTuberFanPageProject is a curated fan page dedicated to vTuber talents. It a
 # Screenshots
 
 ![Profile Page](./public/screenshot1.jpg)
+*Screenshot of the Profile Page, showcasing vTuber talent profiles and details.*
 ![Video Page](./public/screenshot2.jpg)
+*Screenshot of the Video Page, displaying a collection of vTubers' videos.*
 ![Video Player Overlay](./public/screenshot3.jpg)
+*Screenshot of the Video Player Overlay, providing controls for video playback.*
 
 # Technologies Used
 
