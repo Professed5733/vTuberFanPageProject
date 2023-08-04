@@ -69,6 +69,7 @@ The vTuberFanPageProject is a curated fan page dedicated to vTuber talents. It a
 4. Completed Routing and MVP
 5. Created an Overlay and embed a youtube link onto the Overlay
 6. Remove Hyperlink from Video Card and move it to Video Player Overlay
+7. Build and Deploy to Netlify
 
 ### 4 Aug 2023
 1. Completed ReadMe
