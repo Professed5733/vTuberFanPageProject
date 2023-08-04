@@ -73,3 +73,16 @@ The vTuberFanPageProject is a curated fan page dedicated to vTuber talents. It a
 
 ### 4 Aug 2023
 1. Completed ReadMe
+
+## Disclaimer
+
+This project, vTuberFanPageProject, is a fan-made application created solely for non-commercial and educational purposes. It is dedicated to showcasing and celebrating the talents of vTubers. All vTuber talents featured on this platform belong to their respective indie selves or corporations.
+
+Mika Melatika, who is featured in the demo site, is a virtual talent belonging to Nijisanji Anyolor Inc. The inclusion of Mika Melatika and other vTubers on this platform is done out of admiration and support for their work.
+
+This application is not intended for monetization or any form of commercial use. It is an independent project developed by Professed5733 and the content displayed herein is purely fan-created.
+
+If you are a vTuber talent or a representative of a vTuber and wish to have your details removed from this platform, please contact us, and we will promptly comply with your request.
+
+Please note that this project is in no way affiliated with, sponsored, or endorsed by the vTubers featured on the platform or their respective companies.
+
