@@ -21,7 +21,7 @@ The vTuberFanPageProject is a curated fan page dedicated to vTuber talents. It a
 
 ## Demo Site
 
-[vTuber Fan Page Project](https://stately-speculoos-00b976.netlify.app/MikaVideoPage)
+[vTuber Fan Page Project](https://stately-speculoos-00b976.netlify.app/)
 
 ## Future Enhancements
 
